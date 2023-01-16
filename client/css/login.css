@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+
+*{
+    font-family: 'League Gothic', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.login{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+form{
+    width: 40vw;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;}
+
+.loginTitle{
+    font-size: 80px;
+    margin-top: 100px;
+}
+
+.logo{
+    width: 60vw;
+    height: 11vh;
+    background-color: #FF74B1
+}
+
+img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+
+  li {
+    margin-left: 20px;
+    display: inline;
+  }
+.btn.btn-primary{
+    background-color: #FF74B1;
+    border-color: #FFD6EC;
+    width: 25%;  
+}
+
+input{
+    border-radius: 5px;
+    margin-bottom: 2%;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px #FF74B1;
+}
+
+
+.ending{
+    color: grey;
+    text-decoration-line: overline ;
+}
+
+.register{
+    width: 40%;
+    height: 100vh;
+    background-image: url(../images/register-background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.register-Title>h1{
+    font-size: 80px;
+    margin-top: 10vh;
+}
+
+.sub-Title{
+    font-size: 20px;
+   margin: 10%;
+}

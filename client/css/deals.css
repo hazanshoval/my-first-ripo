@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&family=Titan+One&display=swap');
+
+*{
+    font-family: 'Alegreya Sans', sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+a{
+    color: white;
+    font-weight: bolder;
+}
+
+#userConnect{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Titan One', cursive;
+   }
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    width: 100vw;
+    height: 11vh;
+    background-color: #FF74B1;
+    text-align: right;
+}
+
+.topDealPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+img{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    margin-right: 70%;
+}
+
+.price>img{
+    width: 40px;
+    height: 40px;
+}
+
+.hotelInfo>img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 40px;
+}
+
+.hotelPhoto>img{
+    width: 130px;
+    height: 90px;
+    border-radius: 9px;
+}
+
+.Deal{
+    box-shadow: 3px 3px 3px 3px #EAEAEA;
+    margin-top: 40px;
+    width: 50vw;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 7px;
+}
+
+.Deal:hover{
+    cursor: pointer;
+}
+
+  li {
+    display: inline;
+    padding: 5px;
+  }
+
+  .btn.btn-primary{
+    border-color: #FFD6EC;
+    font-size: 12px;
+    width: 35%;  
+    
+}
+
+.favorite{
+    background-color: #80ed99;   
+}
+
+.notFavorite{
+    background-color: #ff595e;
+    width: 70px;
+}
+
+

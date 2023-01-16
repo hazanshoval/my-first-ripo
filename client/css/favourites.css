@@ -1,0 +1,23 @@
+
+
+  .btn.btn-primary{
+    border-color: #FFD6EC;
+    font-size: 12px;
+    width: 35%;  
+    
+}
+
+.favorite{
+    display: none;
+    background-color: #80ed99;   
+}
+
+.notFavorite{
+    display: flex;
+    background-color: #ff595e;
+    width:45%;
+}
+
+.Deal{
+    display: none;
+}
